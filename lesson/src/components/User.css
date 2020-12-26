@@ -1,0 +1,66 @@
+#logInContainer{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+   grid-gap: 2rem;
+}
+
+#UsersContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align:center;
+
+}
+
+.user{
+    text-align: center;
+    border-radius: 2rem;
+   padding: 15%;
+   margin:5%;
+}
+
+#LogIn{
+    text-align: center;
+    margin-top: 10ex;
+    font-size: xx-large;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: static;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .right{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;;
+  }

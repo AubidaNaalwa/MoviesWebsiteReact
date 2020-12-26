@@ -1,0 +1,51 @@
+#searchContainer{
+    display:grid;
+    grid-template-columns: repeat(1, auto);
+    grid-row-gap:1rem ;
+}
+
+#moviesSearchedContainer{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap:1rem ;
+    justify-items: center;
+    margin-left: 4%;
+    grid-gap: 5rem;
+}
+.movieContainer{
+    display:grid;
+    grid-template-columns: repeat(1, auto);
+     justify-items: center;
+     position: none;
+     
+}
+.movie{
+    height: 273px;
+    width: 278px;
+    border-radius: 2%;
+
+}
+
+#moviesContainer{
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+    margin-left: 3%;
+    margin-top: 1%;
+    grid-gap: 5rem;
+   
+}
+
+.title{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: x-large;
+}
+.imageConatiner{
+    position: relative;
+}
+.addFont{
+    position: absolute;
+    right: 1px;
+    color: rgb(18, 206, 49);
+    font-size: xx-large;
+}
